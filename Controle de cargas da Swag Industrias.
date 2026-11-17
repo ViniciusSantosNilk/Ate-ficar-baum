@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+	public class Main {
+	
+		public static void main(String[] args) {
+			
+			Scanner entrada = new Scanner(System.in);
+			
+			System.out.println("Sistema de Controle de Expedicao");
+			System.out.println("Let´s go, nego!");
+			String empresa = "Swag Industrial";
+			String produtoA = "Tubos de Aco";
+			String produtoB = "Chapas de Aco";
+			String produtoC = "Cantoneiras de Aco";
+				
+			int numeroDoEmbarque = 4;
+			
+			System.out.println("Cadastro de Carga:" + empresa );
+			
+			System.out.println("Produto A: " + produtoA);
+			System.out.println("Produto B: " + produtoB);
+			System.out.println("Produto C: " + produtoC);
+
+			System.out.println("Numero do Embarque:" + numeroDoEmbarque);
+		
+	        System.out.println("Digite a quantidade de pacotes:");
+	        int quantidadeDePacotes = entrada.nextInt();
+	    
+        	System.out.println("Digite a quantidade de Produtos:");
+		    int quantidadeDeProdutos = entrada.nextInt();
+		
+	        System.out.println("Digite o peso total:");
+		    double pesoTotal = entrada.nextDouble();
+		
+	System.out.println("Quantidade de pacotes: " + quantidadeDePacotes);
+	System.out.println("Quantidade de Produtos: " + quantidadeDeProdutos);
+	System.out.println("Peso total:" + pesoTotal);
+	}
+	}
